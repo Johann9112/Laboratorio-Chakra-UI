@@ -1,0 +1,57 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: rgb(14, 13, 13);
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 1.1;
+  color: aliceblue;
+}
+
+.header-container {
+  position: relative;
+  text-align: center;
+}
+
+.header-image {
+  height: 90vh;
+  margin-bottom: 2rem;
+}
+
+.header-buttons {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.header-buttons h2 {
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.header-buttons button {
+  cursor: pointer;
+  opacity: 0.9;
+  font-size: 1.2em;
+  color: black;
+  transition: opacity 0.3s;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.header-buttons button:hover {
+  opacity: 1;
+  background-color: white;
+  color: black;
+}
